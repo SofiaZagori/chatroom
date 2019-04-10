@@ -165,7 +165,7 @@ int main()
         pthread_t id;
         if (pthread_create(&id, NULL, (void *)client_handler, (void *)c) != 0) {
             perror("Create pthread error!\n");
-            exit();
+            exit(EXIT_FAILURE);
         }
     }
 
