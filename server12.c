@@ -131,7 +131,7 @@ int main()
     }
 
     // Socket information
-    struct sockaddr_in addr;
+    struct sockaddr_in addr; // to addr einai typou struct sockaddr_in
 
     int addrlen = sizeof(struct sockaddr_in);
 
